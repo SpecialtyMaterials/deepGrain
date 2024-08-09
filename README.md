@@ -1,4 +1,5 @@
 # Diffusion Grain
+<<<<<<< HEAD
 Machine Learning Model for Grain Detection Based on DiffusionEdge 
 
 ![grainExample](/assets/fullImg_testFiber1_1.png)
@@ -21,4 +22,6 @@ A minimum of 400 images post-augmentation should be used for training, ideally m
 
 ## Grain Processor
 
-grainProcessor.py intakes the output of the diffusionGrain model, cleanes and skeletonizes the result, and presents the user a colored view of the identified grains. The user may click on extraneous segmentations to remove them from processing. Once complete ('d' on the keyboard twice), data for the width, heigh, area, and aspect ratio of each identified grain will be exported to a file. Default units are microns, defined by a scaling factor of nanometers per pixel. 
+grainProcessor.py intakes the output of the diffusionGrain model, cleanes and skeletonizes the result, and presents the user a colored view of the identified grains. The user may click on extraneous segmentations to remove them from processing. Once complete ('d' on the keyboard twice), data for the width, heigh, area, and aspect ratio of each identified grain will be exported to a file. Default units are microns, defined by a scaling factor of nanometers per pixel. grainProcessor.py intakes the output of the diffusionGrain model, cleanes and skeletonizes the result, and presents the user a colored view of the identified grains. The user may click on extraneous segmentations to remove them from processing. Once complete ('d' on the keyboard twice), data for the width, heigh, area, and aspect ratio of each identified grain will be exported to a file. Default units are microns, defined by a scaling factor of nanometers per pixel. 
+=======
+Metal grain characterization workflow based on deep-learned grain detection. 
