@@ -100,10 +100,10 @@ def save_augmented_images(augmented_images, augmented_edges, output_image_dir, o
         cv2.imwrite(edge_path, edge)
 
 if __name__ == "__main__":
-    image_dir = "C:/Users/nickb/Desktop/projects/cobDetection/images/spliced/splicedImages"
-    edge_dir = "C:/Users/nickb/Desktop/projects/cobDetection/images/spliced/splicedEdges"
-    output_image_dir = "Training Data/image/raw"
-    output_edge_dir = "Training Data/edge/raw"
+    image_dir = 
+    edge_dir = 
+    output_image_dir = 
+    output_edge_dir = 
 
     images, edges = load_images(image_dir, edge_dir)
     augmentations1 = augmentations1()

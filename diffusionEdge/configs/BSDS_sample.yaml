@@ -37,7 +37,7 @@ model:
       num_res_blocks: 2
       attn_resolutions: [ ]
       dropout: 0.0
-    ckpt_path: "C:/Users/nickb/Desktop/projects/cobDetection/diffusionGrain/weights/first_stage_total_320.pt"
+    ckpt_path: "/diffusionEdge/weights/first_stage_total_320.pt"
   unet:
     dim: 128
     cond_net: swin
@@ -58,7 +58,7 @@ model:
 
 data:
   name: edge
-  img_folder: "C:/Users/nickb/Desktop/projects/cobDetection/diffusionGrain/testing"
+  img_folder: "/diffusionEdge/testing"
   augment_horizontal_flip: True
   batch_size: 1
   num_workers: 1
@@ -70,4 +70,4 @@ sampler:
   sample_num: 100000
   use_ema: False
   save_folder: './results'
-  ckpt_path: "C:/Users/nickb/Desktop/projects/cobDetection/diffusionGrain/weights/model-61-r.pt"
+  ckpt_path: "/diffusionEdge/weights/model-61-r.pt"
