@@ -1,2 +1,2 @@
 # Diffusion Grain
-Machine Learning Model for Grain Detection Based on DiffusionEdge 
+Metal grain characterization workflow based on deep-learned grain detection. 
