@@ -100,10 +100,10 @@ def save_augmented_images(augmented_images, augmented_edges, output_image_dir, o
         cv2.imwrite(edge_path, edge)
 
 if __name__ == "__main__":
-    image_dir = 
-    edge_dir = 
-    output_image_dir = 
-    output_edge_dir = 
+    image_dir = '/'
+    edge_dir = '/'
+    output_image_dir = '/'
+    output_edge_dir = '/'
 
     images, edges = load_images(image_dir, edge_dir)
     augmentations1 = augmentations1()
