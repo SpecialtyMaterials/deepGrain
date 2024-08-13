@@ -12,6 +12,7 @@ This repository contains code for training and sampling the diffusionEdge model,
 The diffusionEdge model operates in two stages with separate weights. 
 
 First stage (default BSDS weights): https://github.com/GuHuangAI/DiffusionEdge/releases/download/v1.1/first_stage_total_320.pt
+
 Second stage (diffusionGrain weights): https://specialtymaterials.box.com/s/zagv8us45iq9szts9tac6hqxjahqowpx
 
 
