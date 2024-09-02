@@ -5,7 +5,7 @@ Machine Learning Model for Grain Detection Based on DiffusionEdge
 
 ## Overview
 
-This repository contains code for training and sampling the diffusionEdge model, image augmentation and data manipulation scripts to assist with training, and a computer vision script to process the segmented output with manual correction and data generation. 
+This repository contains code for training and sampling the diffusionEdge model, image augmentation and data manipulation scripts to assist with training, and a computer vision script to process the segmented output with manual correction and statistical analysis of the detected grains. 
 
 ## Grain Detection and Augmentation
 
